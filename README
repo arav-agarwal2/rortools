@@ -1,0 +1,8 @@
+To check current compilation status:
+`R> devtools::check()`
+
+Currently in need of fixing/removing the following dependencies:
+ - glog ( Removable, but may require tons of work )
+ - absl ( Macros are interfering with RCpp's base free/alloc macros, causing problems )
+
+Once we get these dependencies removed, we can continue writing code using RCpp and creating the interface functions. However, currently just getting the compilation struggles correctly.
