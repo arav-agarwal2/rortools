@@ -1,6 +1,6 @@
 #define GLOG_NO_ABBREVIATED_SEVERITIES
-#include <Rcpp.h>
 #include "ortools/linear_solver/linear_solver.h"
+#include <Rcpp.h>
 
 using namespace Rcpp;
 using namespace operations_research;
