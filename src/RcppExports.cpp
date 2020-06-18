@@ -16,7 +16,7 @@ BEGIN_RCPP
 END_RCPP
 }
 // rcpp_test_rortools
-List rcpp_test_rortools();
+NumericVector rcpp_test_rortools();
 RcppExport SEXP _rortools_rcpp_test_rortools() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;

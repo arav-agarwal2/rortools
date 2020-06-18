@@ -1,3 +1,4 @@
+#define GLOG_NO_ABBREVIATED_SEVERITIES
 #include <Rcpp.h>
 #include "ortools/linear_solver/linear_solver.h"
 
@@ -15,7 +16,7 @@ List rcpp_hello_world() {
 }
 
 // [[Rcpp::export]]
-List rcpp_test_rortools() {
+NumericVector rcpp_test_rortools() {
     MPSolver solver("LinearExample", MPSolver::GLOP_LINEAR_PROGRAMMING);
     const double infinity = solver.infinity();
     MPVariable* const x = solver.MakeNumVar(0.0, infinity, "x");
