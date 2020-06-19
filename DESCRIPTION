@@ -10,3 +10,6 @@ Description: One paragraph description of what the package does as one
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.4)
 LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2020-06-18 22:45:19 UTC; arav
+Depends: R (>= 3.5.0)
