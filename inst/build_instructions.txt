@@ -1,0 +1,4 @@
+For my sake, I'm going to log everything I install in other directories, as otherwise it's going to be difficult to diagnose problems.
+
+For glog:
+   I ran the following to install it to my computer: `./autogen.sh && ./configure && make && make install`

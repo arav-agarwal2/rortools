@@ -1,0 +1,6 @@
+g++: error: include/ortools/linear_solver/linear_solver.cc: No such file or directory
+g++: error: include/absl/status/status.cc: No such file or directory
+g++: error: include/ortools/base/logging.cc: No such file or directory
+g++: error: test.cpp: No such file or directory
+g++: fatal error: no input files
+compilation terminated.
